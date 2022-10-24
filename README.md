@@ -1,6 +1,6 @@
 # Product CRUD page with server and database
 
-## [Click here]("placeholder") to see the page!
+## You can't actually see the page because of database! But point is to have the code saved.
 ___
 
 ### Technologies used:
