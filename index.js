@@ -18,9 +18,15 @@ app.set("view engine", "ejs");
 
 app.get("/products", async (req, res) => {
     const products = await Product.find({});
-    res.render("products/index", { products })
-})
+    res.render("products/index", { products });
+});
+
+app.get("/products/:id", async (req, res) => {
+    const { id } = req.params;
+    const product = await Product.findById(id);
+    res.render("products/show", { product });
+});
 
 app.listen(port, () => {
     console.log(`App is listening on port: ${port}`);
-})
+});
