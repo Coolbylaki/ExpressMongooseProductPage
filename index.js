@@ -7,8 +7,8 @@ const mongoose = require("mongoose");
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect("mongodb://localhost:27017/movieApp")
-    console.log("Connection open!")
+    await mongoose.connect("mongodb://localhost:27017/movieApp");
+    console.log("Connection open!");
 };
 
 app.set("views", path.join(__dirname, "views"));
