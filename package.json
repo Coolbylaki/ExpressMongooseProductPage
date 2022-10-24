@@ -1,0 +1,25 @@
+{
+  "name": "productpage",
+  "version": "1.0.0",
+  "description": "## [Click here](\"placeholder\") to see the page! ___",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coolbylaki/ExpressMongooseProductPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coolbylaki/ExpressMongooseProductPage/issues"
+  },
+  "homepage": "https://github.com/Coolbylaki/ExpressMongooseProductPage#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.7"
+  }
+}

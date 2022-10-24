@@ -9,6 +9,7 @@ ___
 + JavaScript
 + MongoDB & Mongoose 
 + Express & Node
++ Embedded JavaScript
 
 ---
 
