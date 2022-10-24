@@ -12,5 +12,6 @@ ___
 + Embedded JavaScript
 
 ---
+**Keynote:** This app does not handle errors. It's just practice work and proof of concept page!
 
 <div style="text-align: right"> Made by: <b>Lazar Stojanović</b> </div>
