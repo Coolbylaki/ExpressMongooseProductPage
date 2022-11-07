@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Farm</title>
+    <style>
+        form * {
+            margin: 0.15em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Add A Farm</h1>
+    <form action="/farms" method="POST">
+        <div>
+            <label for="name">Farm Name:</label>
+            <input id="name" type="text" name="name">
+        </div>
+        <div>
+            <label for="city">City Name:</label>
+            <input id="city" type="text" name="city">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+        </div>
+        <button>Submit</button>
+        <button><a href="/farms">Cancel</a></button>
+    </form>
+</body>
+
+</html>
