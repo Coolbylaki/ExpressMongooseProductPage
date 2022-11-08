@@ -12,7 +12,9 @@
     <h1>All Farms</h1>
     <ul>
         <% for(let farm of farms) { %>
-        <li><%= farm.name %></li>
+        <a href="/farms/<%= farm._id %>">
+            <li><%= farm.name %></li>
+        </a>
         <% } %>
     </ul>
     <button><a href="/farms/new">Add Farm</a></button>
