@@ -1,6 +1,6 @@
 # Product CRUD page with server and database
 
-## You can't actually see the page because of database! But point is to have the code saved.
+## You can't actually see the page, because of existing database! But, the point is, to have the code saved!
 ___
 
 ### Technologies used:
