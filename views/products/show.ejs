@@ -13,6 +13,7 @@
     <ul>
         <li>Price: $<%= product.price %></li>
         <li>Category: <a href="/products?category=<%= product.category %>"><%= product.category %></a></li>
+        <li><a href="/farms/<%= product.farm._id %>">Farm: <%= product.farm.name %></a></li>
     </ul>
     <button><a href="/products">All Products</a></button>
     <button><a href="/products/<%= product._id %>/edit">Edit Product</a></button>
